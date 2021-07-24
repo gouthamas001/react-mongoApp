@@ -30,4 +30,12 @@ public class Student {
     public String getEmail() {
         return email;
     }
+
+    public Boolean emailCheck() {
+        if (this.email.contains("@")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
